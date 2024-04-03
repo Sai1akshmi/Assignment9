@@ -1,0 +1,32 @@
+<html>
+<body>
+  <form >
+      <h1>Sign up</h1>
+    <title >Sign in</title>
+   Name:<br>
+  <input type="text" placeholder="Name"><br/>
+    email:<br>
+    <input type="mail" placeholder="Email"><br/>
+      password:<br>
+      <input type="password" placeholder="8 characters"><br/>
+        confirm password<br>
+        <input type="confirm password" placeholder="8 characters"><br/>
+          Date of Birth<br>
+          <input type="date"><br/>
+            Gender:<br>
+            <input type="radio" name="gen">Male
+              <input type="radio" name="gen">Female
+                <input type="radio" name="gen">Other<br/>
+                  Insert your Photo:<br>
+                  <input type="file"><br/>
+                    Insert your Resume:<br>
+                    <input type="file"><br/>
+                      Security Question:<br>
+                      <label for="comment"></label>
+  <textarea id="comment" name="comment" rows="4" cols="50"></textarea><br>
+                        <input type="checkbox">    Iagree terms and conditions<br/>
+                          <input type="submit">
+                            
+  </form>
+  </body>
+</html>
